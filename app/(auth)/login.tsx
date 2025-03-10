@@ -60,7 +60,7 @@ const Login = () => {
             />
           }
         />
-        <Typo size={14} color='#FF9800' style={{alignSelf:"flex-end"}}> 
+        <Typo size={14} color={colors.neutral150}style={{alignSelf:"flex-end"}}> 
             Şifreni Unuttun Mu?
         </Typo>
         <Button loading={isLoading} onPress={handleSubmit}>
@@ -73,7 +73,7 @@ const Login = () => {
         <View style={styles.footer}>
             <Typo size={15} color={colors.neutral400}>Henüz bir hesabın yok mu?</Typo>
             <Pressable onPress={()=> router.navigate("/(auth)/register")} >
-                <Typo size={15} fontWeight={"700"} color='#FF9800'>Kayıt Ol</Typo>
+                <Typo size={15} fontWeight={"700"} color={colors.neutral150}>Kayıt Ol</Typo>
             </Pressable>
 
         </View>

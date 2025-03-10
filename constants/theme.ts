@@ -2,26 +2,18 @@ import { scale, verticalScale } from "@/utils/styling";
 
 export const colors = {
   primary: "#a3e635",
-  primaryLight: "#0ea5e9",
-  primaryDark: "#0369a1",
-  text: "#fffff", // #4CAF50
+  primaryLight: "#4CAF50", //buton rengim
+  text: "#fffff", 
   textLight: "#e5e5e5",
-  textLighter: "#d4d4d4",
   white: "#fff",
   black: "#000",
-  rose: "#ef4444",
-  green: "#16a34a",
-  neutral50: "#fafafa",
   neutral100: "#f5f5f5",
-  neutral200: "#e5e5e5",
+  neutral150:"#FF9800",
+  neutral200:"#FCFCFCFF",
   neutral300: "#d4d4d4",
-  neutral350: "#CCCCCC",
   neutral400: "#a3a3a3",
-  neutral500: "#737373",
-  neutral600: "#525252",
-  neutral700: "#404040",
-  neutral800: "#262626",
-  neutral900: "#F5F5F5", //arka plan rengim
+  neutral800: "#4CAF50",
+  neutral900: "#F5F5F5",  //arka plan rengim
 };
 
 export const spacingX = {

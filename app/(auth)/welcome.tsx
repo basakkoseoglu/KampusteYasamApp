@@ -32,10 +32,10 @@ const Welcome = () => {
           {/* Alt kısım: Footer içindeki yazılar ve buton */}
           <View style={styles.footer}>
             <View style={{ alignItems: "center" }}>
-              <Typo size={20} fontWeight={"600"} color="#FCFCFCFF">
+              <Typo size={20} fontWeight={"600"} color={colors.neutral200}>
                 Kitaplar, Notlar, Eşyalar...
               </Typo>
-              <Typo size={20} fontWeight={"600"} color="#FCFCFCFF">
+              <Typo size={20} fontWeight={"600"} color={colors.neutral200}>
                 Paylaşan Kazanır!
               </Typo>
             </View>
@@ -49,7 +49,7 @@ const Welcome = () => {
             </View>
             <View style={styles.buttonContainer}>
               <Button onPress={()=>router.push('/(auth)/register')}>
-                <Typo size={22} color='#FCFCFCFF' fontWeight={"600"}>Haydi Başlayalım</Typo>
+                <Typo size={22} color={colors.neutral200} fontWeight={"600"}>Haydi Başlayalım</Typo>
               </Button>
             </View>
           </View>

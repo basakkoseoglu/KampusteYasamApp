@@ -84,7 +84,7 @@ const Register = () => {
         <View style={styles.footer}>
             <Typo size={15} color={colors.neutral400}>Hesabın var mı?</Typo>
             <Pressable onPress={()=> router.navigate("/(auth)/login")} >
-                <Typo size={15} fontWeight={"700"} color='#FF9800'>Giriş Yap</Typo>
+                <Typo size={15} fontWeight={"700"} color={colors.neutral150}>Giriş Yap</Typo>
             </Pressable>
 
         </View>

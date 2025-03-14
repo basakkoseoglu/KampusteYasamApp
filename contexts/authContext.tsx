@@ -82,7 +82,7 @@ export const AuthProvider:React.FC<{ children:React.ReactNode}>=({
                         uid:data?.uid || null,
                         email:data.email || null,
                         name:data.name || null,
-                        profileImage: data.profileImage || null,
+                        image: data.profileImage || null,
                         department:data.department || null,
                         university:data.university || null,  
                     };

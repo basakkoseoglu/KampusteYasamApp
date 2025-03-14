@@ -102,7 +102,7 @@ export type UserType = {
     name?: string | null;
     university?: string;
     department?: string;
-    profileImage?: string;
+    image?: string;
   } |null;
 
   /** İlan türü */

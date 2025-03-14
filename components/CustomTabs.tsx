@@ -17,28 +17,28 @@ export default function CustomTabs({
             <Icons.PushPin
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.neutral150 : colors.neutral100}
+            color={isFocused ? colors.primary : colors.neutral100}
          />
         ),
         discover:(isFocused:boolean)=>(
             <Icons.CardsThree
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.neutral150 : colors.neutral100}
+            color={isFocused ? colors.primary : colors.neutral100}
          />
         ),
         chat:(isFocused:boolean)=>(
             <Icons.ChatText
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.neutral150 : colors.neutral100}
+            color={isFocused ? colors.primary : colors.neutral100}
          />
         ),
         profile:(isFocused:boolean)=>(
             <Icons.User
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.neutral150 : colors.neutral100}
+            color={isFocused ? colors.primary : colors.neutral100}
          />
         ),
 

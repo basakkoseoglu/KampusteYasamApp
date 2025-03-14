@@ -10,18 +10,18 @@ import { colors } from '@/constants/theme'
 
 const Home = () => {
   const{user}=useAuth();
-  console.log("kullanıcı: ",user);
-  const handleLogout=async()=>{
-    await signOut(auth);
-  }
+  // console.log("kullanıcı: ",user);
+  // const handleLogout=async()=>{
+  //   await signOut(auth);
+  // }
   return (
     <ScreenWrapper>
       <Typo>Home</Typo>
-      <Button onPress={handleLogout}>
+      {/* <Button onPress={handleLogout}>
         <Typo color={colors.white}>
             çıkış yap
         </Typo>
-      </Button>
+      </Button> */}
     </ScreenWrapper>
   )
 }

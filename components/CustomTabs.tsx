@@ -17,28 +17,28 @@ export default function CustomTabs({
             <Icons.PushPin
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.primary : colors.neutral100}
+            color={isFocused ? colors.primary: colors.primaryLight}
          />
         ),
         discover:(isFocused:boolean)=>(
             <Icons.CardsThree
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.primary : colors.neutral100}
+            color={isFocused ? colors.primary: colors.primaryLight}
          />
         ),
         chat:(isFocused:boolean)=>(
             <Icons.ChatText
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.primary : colors.neutral100}
+            color={isFocused ? colors.primary : colors.primaryLight}
          />
         ),
         profile:(isFocused:boolean)=>(
             <Icons.User
             size={verticalScale(30)}
             weight={isFocused ? "fill" :"regular"}
-            color={isFocused ? colors.primary : colors.neutral100}
+            color={isFocused ? colors.primary : colors.primaryLight}
          />
         ),
 
@@ -102,10 +102,10 @@ export default function CustomTabs({
         flexDirection: 'row',
         width:'100%',
         height: Platform.OS =='ios' ? verticalScale(73) : verticalScale(55),
-        backgroundColor:colors.primaryLight,
+        backgroundColor:colors.neutral100,
         justifyContent:"space-around",
         alignItems:"center",
-        borderTopColor:colors.primary,
+        borderTopColor:colors.primaryLight,
         borderTopWidth:1,
     },
     tabbarItem:{

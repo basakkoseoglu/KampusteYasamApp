@@ -103,6 +103,7 @@ export type UserType = {
     university?: string;
     department?: string;
     image?: string;
+    gender?:string;
   } |null;
 
   /** İlan türü */
@@ -120,6 +121,9 @@ export type ListingType = {
 export type UserDataType = {
   name: string;
   image?: any;
+  university?:string;
+  department?:string;
+  gender?:string;
 };
 
 
@@ -144,3 +148,21 @@ export type ResponseType = {
   msg?: string;
 };
 
+// types.tsx içinde TEKRARLAMAYAN interface tanımları yapın:
+export interface University {
+  name: string;
+  phone: string;
+  fax: string;
+  website: string;
+  email: string;
+  adress: string; // Not: "address" olmalıydı, JSON ile uyumlu kalması için böyle bırakıldı
+  rector: string;
+}
+
+export interface Province {
+  id: number;
+  province: string;
+  universities: University[];
+}
+
+export type ProvinceUniversities = Province[]; // Doğru tanım
